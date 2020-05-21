@@ -10,7 +10,15 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-4": { "HQREP\\Module\\": "" }
+        "psr-4": { "HQWHMCS\\": "" }
     },
-    "require": {}
+    "require": {
+        "php": "^7.3.11",
+        "symfony/console": "^5.2@dev",
+        "symfony/browser-kit": "^5.2@dev",
+        "symfony/filesystem": "^5.2@dev"
+    },
+    "scripts": {
+        "post-package-install": ["HQWHMCS\\Installer::postPackageInstall"]
+    }
 }
