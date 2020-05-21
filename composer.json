@@ -14,9 +14,9 @@
     },
     "require": {
         "php": "^7.3.11",
-        "symfony/console": "^5.2@dev",
-        "symfony/browser-kit": "^5.2@dev",
-        "symfony/filesystem": "^5.2@dev"
+        "symfony/console": "^5.2",
+        "symfony/browser-kit": "^5.2",
+        "symfony/filesystem": "^5.2"
     },
     "scripts": {
         "post-package-install": ["HQWHMCS\\Installer::postPackageInstall"]
