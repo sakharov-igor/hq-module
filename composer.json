@@ -1,0 +1,15 @@
+{
+    "name": "igorsakharov/hq-module",
+    "description": "Module for work with whmcs module",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Igor Sakharov",
+            "email": "igor.sakharov@hostiq.ua"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "HQREP\\Module\\": "" }
+    },
+    "require": {}
+}
