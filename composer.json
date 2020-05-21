@@ -1,7 +1,7 @@
 {
     "name": "igorsakharov/hq-module",
     "description": "Module for work with whmcs module",
-    "type": "project",
+    "type": "library",
     "authors": [
         {
             "name": "Igor Sakharov",
